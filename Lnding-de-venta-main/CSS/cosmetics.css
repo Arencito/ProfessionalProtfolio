@@ -1,0 +1,170 @@
+body{
+background-color:lavender ;
+margin: 20px;
+border: 1px white;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.logo{
+    margin: 0px auto; border: 1px solid silver;
+    padding:10px, 20px;
+    background-color: rgb(249, 247, 246);
+    display:inline-block;
+    
+   
+    
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+
+   
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .Jumbotron {
+    background-color: white;
+    border: 1px solid gainsboro;
+  }
+
+  .titulo{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-inline: 40px ;
+    font-style: italic;
+  }
+
+  .eslogan{
+    padding-inline: 20px;
+    position:relative;
+    font-family: monospace;
+    font-style: oblique;
+    text-decoration:underline solid blueviolet;
+    text-decoration-style:dotted;
+}
+
+  .Subtitulo{
+    padding-inline: 20px;
+    line-height: 30px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .textos{
+    text-align: center;
+    font-style: oblique;
+    margin: 10px;
+    
+    
+
+  }
+
+  .correo{
+    line-height: 10px;
+    max-width: 10px;
+    margin: 10px;
+    text-align: center;
+    
+  }
+ .blog{
+  margin: 10px;
+  border: 1px solid white;
+
+ }
+
+ .blog .textos{
+  background-color: whitesmoke;
+ }
+
+ .Contenedor{
+  margin: 10px;
+  border: 1px solid white;
+  display: grid;
+  grid-template-columns:4fr 4fr ;
+  gap: 5px;
+  
+ }
+
+ .card{
+  display: grid;
+  grid-template-columns: repeat(4fr, 4fr);
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  font-weight:bold;
+ }
+
+ .card .textos {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+ }
+
+ .Adicionales{
+  margin: 10px;
+  border: 1px solid white;
+  display: grid;
+  grid-template-columns: auto;
+  background-color: whitesmoke;
+ }
+  
+ .Adicionales .ContenedorAd
+ {
+  border: 1px solid white;
+  margin: 10px;
+  padding: 0px auto;
+  background-color: lavender ;
+ }
+
+ .ideas{
+  margin: 10px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  font-weight: bold;
+  
+ }
+
+ .ideas .textos
+ {color: white;
+  height: 100%;
+}
+
+.Footer{
+  border: 1px white;
+  margin: 10px;
+}
+
+.Redes .textos{
+  font-size: medium;
+  font-style: oblique;
+  background-color: whitesmoke;
+}
+   
+
+  
+
+
+    
+
